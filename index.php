@@ -27,5 +27,6 @@ session_start();
 			$_SESSION['login']= $_POST['login']; } else {echo 'пароль не подошел';}
 			
 		} else { echo "Не верный логин";}
+		
 	}
 ?>
